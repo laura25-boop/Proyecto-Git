@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario Sena v1</title>
+  <link rel="stylesheet" href="../LINTERS/styles.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>📝Formulario Sena v1</h1>
+    <h2>Gracias por dejar sus datos</h2>
+
+    <form>
+      <div>
+        <label for="nombre">Name:</label>
+        <input type="text" id="Name" name="Name" required placeholder="Please enter your name" />
+      </div>
+
+      <div class="">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Please enter your email" />
+      </div>
+
+      <div>
+        <label for="edad">Age:</label>
+        <input type="number" id="Age" name="Age" required placeholder="Please enter your age" />
+      </div>
+    
+      <div >
+        <label for="Choose on option">Choose on option</label>
+        <select id="option " name="option" required>
+          <option value="">Select one option</option>
+          <option value="">A</option>
+          <option value="">B</option>
+          <option value="">C</option>
+        </select>  
+      </div>
+
+      <div>
+        <label>Do you plan to buy a new carin the next 5 years?</label>
+        <label><input type="radio" name="option" value="yes"> Yes</label>
+        <label><input type="radio" name="option" value="No"> No </label>
+        <label><input type="radio" name="option" value="Maybe"> Maybe</label>
+      </div>
+
+      <div >
+        <label for="Choose on option">Choose on option</label>
+        <select id="option " name="option" required>
+          <option value="">Select one option</option>
+          <option value="">Renault</option>
+          <option value="">Chevrolet</option>
+          <option value="">Toyota</option>
+        </select>  
+      </div>
+
+      <div >
+        <label>Do you plan to buy a new carin the next 5 years?</label>
+        <label><input type="checkbox" name="option">Car</label>
+        <label><input type="checkbox" name="option">Boat</label>
+        <label><input type="checkbox" name="option">Bieyele</label>
+        <label><input type="checkbox" name="option">Motorcycle</label>
+        <label><input type="checkbox" name="option">Plane</label>
+        <label><input type="checkbox" name="option">Bike</label>
+      </div>
+
+      <div >
+        <label for="comentarios">Any comments suggestions</label>
+        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Please enter your comments (optional)"></textarea>
+      </div>
+
+      <button type="submit">🚀 Enviar Formulario</button>
+    </form>
+  </div>
